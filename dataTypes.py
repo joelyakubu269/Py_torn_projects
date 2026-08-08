@@ -15,3 +15,4 @@ for x in val2:
         while counter <=6:
             print("last item")
             counter+=1
+## just learnin pyhon basics
