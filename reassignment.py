@@ -21,6 +21,6 @@ print(copy_numbers) # different result becuase what you do the copy does not aff
 # deep copy
 number = [[10, 20], [30, 40]]
 copy_number = number.copy()
-number[0][0]= 1
+copy_number[0][0]= 1
 print(number)
-print(copy_number)
+print(copy_number) # only when you append another list you can cahnge the outer list
