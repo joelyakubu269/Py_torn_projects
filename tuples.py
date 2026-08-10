@@ -21,3 +21,18 @@ print(b)
 print(c) # it just like give each value a unique variable name
 # so why use a tuple when its just a limited version of a list
 # its used in instances where you want data constant, like coordinates coordinates = (10.5, 20.3)
+# They are also used as Dictionary keys
+locations = {
+    (0, 0): "Origin",
+    (10, 20): "Point A"
+}
+print(locations)
+# lists nested in tuples, what do you think will happen here
+c = ([10, 20], [30, 40])
+
+d = c
+
+d[0].append(99)
+
+print(c)
+print(d) # tuples are immutable but the list in them are mutable and since c and d point to the same list change in d affects c
