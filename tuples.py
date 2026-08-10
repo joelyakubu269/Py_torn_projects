@@ -17,3 +17,7 @@ print(type(b)) # run it and see the difference
 x=(1,2,3)
 a,b,c = x
 print(a)
+print(b)
+print(c) # it just like give each value a unique variable name
+# so why use a tuple when its just a limited version of a list
+# its used in instances where you want data constant, like coordinates coordinates = (10.5, 20.3)
