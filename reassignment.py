@@ -12,3 +12,9 @@ a[0]= 5
 a.remove(20)
 print(a) # the both print the same value bcoz they still point to the same value
 print(b)
+# coppy
+numbers = [10,20,30]
+copy_numbers = numbers.copy()
+copy_numbers.append(40)
+print(numbers)
+print(copy_numbers) # different result becuase what you do the copy does not affect the original
