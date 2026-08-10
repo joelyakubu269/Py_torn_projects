@@ -7,4 +7,13 @@ print(x[0::2]) # slicing with step
 y= (1,2,3)
 #y[0].append(9) will give an error
 # tuples can be reassigned
-y= (4,5,6)
+y= (4,5,6) # so you see tuples can change but not be modified
+# A single tuple with no commas is just an int
+a=(8)
+b=(8,)
+print(type(a))
+print(type(b)) # run it and see the difference
+# unpacking in tuples ,its also done in lists
+x=(1,2,3)
+a,b,c = x
+print(a)
