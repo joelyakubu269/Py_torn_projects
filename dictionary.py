@@ -108,3 +108,4 @@ students = {
         "scores": [60, 75, 80]
     }
 }
+print(students["Joel"]["age"])
