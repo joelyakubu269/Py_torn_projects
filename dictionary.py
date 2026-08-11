@@ -113,9 +113,10 @@ students["Joel"]["scores"].append(100)
 print(students)
 def mean(students,name):
     counter= len(students[name]["scores"])
+    total= 0
     avg= 0
     for i in range(counter):
-        total= 0
+
         total+= students[name]["scores"][i]
         avg= total/counter
     return avg
