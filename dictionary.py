@@ -59,3 +59,12 @@ other4["scores"] = [70, 80, 90, 100]
 
 print(person4)
 print(other4) # the dont print the same result because reassigning creates a new list it does not change the original list
+# keys in dictionary
+# keys can be changed in dictionaries but you have to pop the former key
+john = {
+    "height": "6ft",
+    "age": 24
+}
+print(john)
+john["years"] = john.pop("age") # start with the new key in mind then pop
+print(john)
