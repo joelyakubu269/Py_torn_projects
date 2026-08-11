@@ -68,7 +68,19 @@ john = {
 print(john)
 john["years"] = john.pop("age") # start with the new key in mind then pop
 print(john)
-d = {
-    [1, 2]: "list"
+#d = {
+#    [1, 2]: "list"
+#}
+# print(d) this gives an error because a list cannot be used as a key because a list can be changed
+# did some exercises to understand dictionary methods
+student = {
+    "name": "Joe",
+    "age": 25,
+    "course": "Python"
 }
-print(d) # this gives an error because a list cannot be used as a key because a list can be changed
+# changing the values
+student["name"]= "doe"
+student["age"] = 24
+print(student)
+# Adding a key and value pair
+student["level"]= "beginner"
