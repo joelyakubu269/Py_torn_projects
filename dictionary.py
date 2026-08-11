@@ -68,3 +68,7 @@ john = {
 print(john)
 john["years"] = john.pop("age") # start with the new key in mind then pop
 print(john)
+d = {
+    [1, 2]: "list"
+}
+print(d) # this gives an error because a list cannot be used as a key because a list can be changed
