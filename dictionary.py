@@ -84,3 +84,17 @@ student["age"] = 24
 print(student)
 # Adding a key and value pair
 student["level"]= "beginner"
+student.pop("course")
+print(student)
+# to check if a key exsists # could also do if "age" in student print("exists)
+print( "age" in student)
+for i in (student.keys()):
+    print(i)
+for j in (student.values()):
+    print(j)
+for k,v in (student.items()): # print key and value pairs
+    print(k,v)
+# Another way of getting values
+value = student.get("age",None) # we use this None beside bcoz at times the value may be None
+if "age" in student:
+    print(value)
