@@ -98,3 +98,13 @@ for k,v in (student.items()): # print key and value pairs
 value = student.get("age",None) # we use this None beside bcoz at times the value may be None
 if "age" in student:
     print(value)
+students = {
+    "Joel": {
+        "age": 25,
+        "scores": [70, 80, 90]
+    },
+    "David": {
+        "age": 23,
+        "scores": [60, 75, 80]
+    }
+}
