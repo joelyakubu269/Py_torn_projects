@@ -3,4 +3,11 @@ def GradeDecider():
     score = input("what did you score ?")
     print(name)
     print(score)
-    results = {}
+    Grade = ""
+    results = {
+        name: [score,Grade]
+    }
+    if score > 90:
+        Grade = "A"
+    elif score > 80 and score < 90 :
+        Grade = "B"
