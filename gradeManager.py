@@ -11,3 +11,5 @@ def GradeDecider():
         Grade = "B"
     elif  score > 70 and score < 80:
         Grade = "C"
+    elif  score > 60 and score < 70 :
+        Grade = "D"
