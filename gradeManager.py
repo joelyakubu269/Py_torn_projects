@@ -17,4 +17,6 @@ def GradeDecider():
         Grade = "E"
     else:
         Grade= "F"
-    results
+    results= {
+        name : [score,Grade]
+    }
