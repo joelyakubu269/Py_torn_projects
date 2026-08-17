@@ -20,3 +20,4 @@ def GradeDecider():
     results= {
         name : [score,Grade]
     }
+    print(results)
