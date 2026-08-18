@@ -8,3 +8,9 @@ def cali():
         result = 0
         if opr == 1 :
             result = num1 * num2
+        elif opr == 2 :
+            result = num1 + num2
+        elif opr == 3 :
+            result = num1 / num2
+        else :
+            print
