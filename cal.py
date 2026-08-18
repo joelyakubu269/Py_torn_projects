@@ -13,4 +13,6 @@ def cali():
         elif opr == 3 :
             result = num1 / num2
         else :
-            print
+            print("operator is not valid")
+
+        print(result)
