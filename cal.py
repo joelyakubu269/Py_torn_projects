@@ -1,2 +1,2 @@
 def cali():
-num1:= input(int(""))
+num1:= int(input("pick a number? "))
