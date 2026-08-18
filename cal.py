@@ -1,4 +1,5 @@
 def cali():
+        print()
         num1 = int(input("pick a number? "))
         opr= int(input("1.(*), 2(+),3(/)"))
         num2 = int(input("pick a second number? "))
@@ -16,3 +17,4 @@ def cali():
             print("operator is not valid")
 
         print(result)
+cali()
