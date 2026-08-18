@@ -4,3 +4,4 @@ def cali():
         num2 = int(input("pick a second number? "))
         print(num1)
         print("Now select a number representing the operation you want to carry out")
+        print(num2)
