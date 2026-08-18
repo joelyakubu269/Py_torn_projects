@@ -1,5 +1,5 @@
 def cali():
-        print()
+        print("hello im cali a simple calculator")
         num1 = int(input("pick a number? "))
         opr= int(input("1.(*), 2(+),3(/)"))
         num2 = int(input("pick a second number? "))
