@@ -5,3 +5,6 @@ def cali():
         print(num1)
         print("Now select a number representing the operation you want to carry out")
         print(num2)
+        result = 0
+        if opr == 1 :
+            result = num1 * num2
