@@ -10,7 +10,7 @@ def cali():
         result = 0
         if opr ==  :
             result = num1 * num2
-        elif opr == 2 :
+        elif opr ==  :
             result = num1 + num2
         elif opr == 3 :
             result = num1 / 
