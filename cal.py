@@ -13,7 +13,7 @@ def cali():
         elif opr == 2 :
             result = num1 + num2
         elif opr == 3 :
-            result = num1 / num2
+            result = num1 / 
         else :
             print("operator is not valid")
 
