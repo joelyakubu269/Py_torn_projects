@@ -7,7 +7,7 @@ def cali():
         print(num1)
 
         print(num2)
-        result = 0
+        result = 
         if opr == 1 :
             result = num1 * num2
         elif opr == 2 :
