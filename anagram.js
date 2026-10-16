@@ -10,8 +10,15 @@ function isAnagram(s, t) {
                 blackbox.push(j)
         }
     }
-    if (blackbox.length >= 1) {
-        counter++
+    for (let k=0; k< blackbox.length;k++) {
+        if (blackbox[k]== j) {
+            alreadyused= true
+        }else{
+            alreadyused= false
+        }
+        if (!alreadyused) {
+            counter++
+        }
     }
   }
   if (counter == s.length) {
