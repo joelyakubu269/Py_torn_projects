@@ -4,17 +4,15 @@ function isAnagram(s, t) {
   }
   counter= 0
   let blackbox= []
-  let i= 0
-  while ( i<s.length) {
+  for (let i=0; i<s.length;i++) {
     for (let j=0; j< s.length;j++){
         if (s[i] == t[j]) {
-                counter++
-                i++
+                blackbox.push(j)
         }
-        
-        
     }
-    
+    if (blackbox.length >= 1) {
+        counter++
+    }
   }
   if (counter == s.length) {
     return true
