@@ -4,15 +4,22 @@ function isAnagram(s, t) {
   }
   counter= 0
   let blackbox= []
-  for (let i=0; i<s.length;i++) {
+  let i= 0
+  while ( i<s.length) {
     for (let j=0; j< s.length;j++){
         if (s[i] == t[j]) {
                 counter++
+                i++
         }
+        
+        
     }
+    
   }
   if (counter == s.length) {
     return true
+  }else {
+    return false
   }
 }
 console.log(isAnagram('anagram', 'nagaram'))  // true
