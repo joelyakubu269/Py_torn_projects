@@ -10,10 +10,10 @@ def cali():
         result = 0
         if opr ==  :
             result = num1 * num2
-        elif opr ==  :
+        elif opr == 2 :
             result = num1 + num2
         elif opr == 3 :
-            result = num1 / 
+            result = num1 / num2
         else :
             print("operator is not valid")
 
