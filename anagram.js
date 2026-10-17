@@ -17,7 +17,12 @@ function isAnagram(s, t) {
 
           }
         }
-        
+        if (!alreadyused){
+          blackbox.push(j)
+          counter++
+          alreadyfound= true
+          break
+        }
       }
       
     }
