@@ -5,7 +5,9 @@ function isAnagram(s, t) {
     
   let counter = 0
   let blackbox = []
-  
+  for (j=0; j< s.length;j++){
+    let alreadyfound= false
+  }
   
 
 }
