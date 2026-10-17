@@ -26,8 +26,11 @@ function isAnagram(s, t) {
       }
       
     }
+    if (!alreadyfound){
+      return false
+    }
   }
-  
+  return (counter== s.length)
 
 }
 console.log(isAnagram('anagram', 'nagaram'))  // true
