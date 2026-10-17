@@ -10,6 +10,9 @@ function isAnagram(s, t) {
     for(j=0;j< t.length;j++){
       if (s[i]==t[j]) {
         alreadyused= false // i am assuming the index has not been used(i.e because of duplicates)
+        for (let k=0;k< blackbox.length;k++) {
+          
+        }
       }
       
     }
