@@ -11,7 +11,10 @@ function isAnagram(s, t) {
       if (s[i]==t[j]) {
         alreadyused= false // i am assuming the index has not been used(i.e because of duplicates)
         for (let k=0;k< blackbox.length;k++) {
-          
+          if(blackbox[k]==j) { // blackbox is a variable i created to store the index of duplicates
+            
+
+          }
         }
       }
       
